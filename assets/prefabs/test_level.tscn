@@ -1,12 +1,12 @@
 [gd_scene load_steps=8 format=3 uid="uid://conliaxesyag8"]
 
-[ext_resource type="PackedScene" uid="uid://dwbmgds45ep4o" path="res://assets/tscn/test_arena.tscn" id="1"]
-[ext_resource type="PackedScene" uid="uid://1ujfoei6r514" path="res://assets/tscn/tactics_camera.tscn" id="2"]
+[ext_resource type="PackedScene" uid="uid://dwbmgds45ep4o" path="res://assets/prefabs/test_arena.tscn" id="1"]
+[ext_resource type="PackedScene" uid="uid://1ujfoei6r514" path="res://assets/prefabs/tactics_camera.tscn" id="2"]
 [ext_resource type="Script" path="res://src/level.gd" id="3"]
-[ext_resource type="PackedScene" uid="uid://bky8ul2628kxw" path="res://assets/tscn/player_controller_ui.tscn" id="4"]
+[ext_resource type="PackedScene" uid="uid://bky8ul2628kxw" path="res://assets/prefabs/player_controller_ui.tscn" id="4"]
 [ext_resource type="Script" path="res://src/player_controller.gd" id="5"]
 [ext_resource type="Script" path="res://src/enemy_controller.gd" id="6"]
-[ext_resource type="PackedScene" uid="uid://6eofg7n4asn5" path="res://assets/tscn/pawn.tscn" id="8"]
+[ext_resource type="PackedScene" uid="uid://6eofg7n4asn5" path="res://assets/prefabs/pawn.tscn" id="8"]
 
 [node name="Level" type="Node3D"]
 script = ExtResource("3")
