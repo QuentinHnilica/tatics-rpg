@@ -1,0 +1,3 @@
+[gd_scene format=3 uid="uid://doglc3elrqn2n"]
+
+[node name="overworld" type="Node3D"]

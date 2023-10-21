@@ -22,7 +22,7 @@ var attackable = false
 var hover = false
 
 # indicators & stuff
-var tile_raycasting = load("res://assets/tscn/tile_raycasting.tscn")
+var tile_raycasting = load("res://assets/prefabs/tile_raycasting.tscn")
 
 
 func get_neighbors(height):
