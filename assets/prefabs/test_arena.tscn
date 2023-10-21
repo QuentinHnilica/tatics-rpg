@@ -2933,7 +2933,7 @@ transform = Transform3D(1.01, 0, 0, 0, 1.01, 0, 0, 0, 1.01, 3.49164, 1.75, -1.5)
 mesh = SubResource("70")
 
 [node name="Tile069" type="MeshInstance3D" parent="Tiles"]
-transform = Transform3D(1.01, 0, 0, 0, 1.01, 0, 0, 0, 1.01, 3.49164, 2.25, -2.5)
+transform = Transform3D(1.01, 0, 0, 0, 1.01, 0, 0, 0, 1.01, 3.49017, 2.26703, -2.43527)
 mesh = SubResource("71")
 
 [node name="Tile070" type="MeshInstance3D" parent="Tiles"]
