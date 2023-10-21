@@ -11,7 +11,8 @@ config_version=5
 [application]
 
 config/name="godot-tactical-rpg"
-run/main_scene="res://scenes/overworld_mode.tscn"
+run/main_scene="res://src/menu_mode/menu_test.tscn"
+
 config/features=PackedStringArray("4.0")
 config/icon="res://icons/icon.png"
 
