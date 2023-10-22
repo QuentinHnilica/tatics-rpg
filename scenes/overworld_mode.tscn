@@ -1,9 +1,10 @@
-[gd_scene load_steps=5 format=3 uid="uid://doglc3elrqn2n"]
+[gd_scene load_steps=6 format=3 uid="uid://doglc3elrqn2n"]
 
 [ext_resource type="PackedScene" uid="uid://1ujfoei6r514" path="res://assets/prefabs/tactics_camera.tscn" id="1_6nrey"]
 [ext_resource type="Script" path="res://src/overworld_mode/OW_Config.gd" id="1_irxnd"]
 [ext_resource type="MeshLibrary" uid="uid://d15h2ijlh0pjj" path="res://assets/tiles/Tiles.meshlib" id="2_ulind"]
 [ext_resource type="PackedScene" uid="uid://t0q4e5tag3km" path="res://assets/prefabs/OverWorld/Overworld_Pawn.tscn" id="3_xth4w"]
+[ext_resource type="PackedScene" uid="uid://ctugy5noqj4hn" path="res://assets/models/test_blender_model_import.glb" id="5_xuqex"]
 
 [node name="overworld" type="Node3D"]
 script = ExtResource("1_irxnd")
@@ -20,3 +21,6 @@ metadata/_editor_floor_ = Vector3(0, 0, 0)
 
 [node name="Pawn" parent="." instance=ExtResource("3_xth4w")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+
+[node name="testMaterials2" parent="." instance=ExtResource("5_xuqex")]
+transform = Transform3D(0.0675513, 0, -0.0737348, 0, 0.1, 0, 0.0737348, 0, 0.0675513, 3.00942, 0.967547, -1.05054)
